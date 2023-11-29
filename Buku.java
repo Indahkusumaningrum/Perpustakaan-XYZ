@@ -81,15 +81,6 @@ public class Buku {
         return Objects.hash(judul, penulis, kode_ISBN, status);
     }
     
-//        @Override
-//    public String toString() {
-//        return "Buku{" +
-//                "judul='" + judul + '\'' +
-//                ", penulis='" + penulis + '\'' +
-//                ", kode_ISBN='" + kode_ISBN + '\'' +
-//                ", status=" + status +
-//                '}';
-//    }
     
         
     public void toView() {
@@ -132,7 +123,5 @@ public List<Buku> cariBuku(String kriteria) {
     }
     return hasilPencarian;
 }
-
-        
-    }
+}
 
